@@ -41,6 +41,7 @@ export default function PostPage({
         title={`${frontMatter.title} - ${globalData.name}`}
         description={frontMatter.description}
       />
+      <meta name="theme-color" content="#4285f4"/>
       <link rel="icon" href="https://github.com/K3RN3L32/nextjs-blog-theme/blob/main/VestigeLogoVsmall.png?raw=true" sizes="128x128" type="image/png"/>
       <Header name={globalData.name} />
       <article className="px-6 md:px-0">
