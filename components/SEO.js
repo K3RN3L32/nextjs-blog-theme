@@ -7,6 +7,7 @@ export default function SEO({ title, description }) {
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
       <link rel="icon" href="https://github.com/K3RN3L32/nextjs-blog-theme/blob/main/VestigeLogoVsmall.png?raw=true" sizes="128x128" type="image/png"/>
+      <meta name="theme-color" content="#4285f4"/>
     </Head>
   );
 }
