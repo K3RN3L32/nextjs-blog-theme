@@ -9,6 +9,7 @@
     "Thom Krupa"
   ],
   "homepage": "https://github.com/netlify-templates/nextjs-blog-theme",
+  "theme_color": "#4285f4",
   "bugs": {
     "url": "https://github.com/netlify-templates/nextjs-blog-theme/issues"
   },
