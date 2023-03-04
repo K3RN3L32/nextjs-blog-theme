@@ -56,9 +56,9 @@ export default function PostPage({
         <main>
           <article className="prose dark:prose-dark">
             <MDXRemote {...source} components={components} />
+            <iframe width="1175" height="661" src="https://www.youtube.com/embed/QxJmAdBu7zk" title="i did a oopsie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </article>
         </main>
-        <iframe width="1175" height="661" src="https://www.youtube.com/embed/QxJmAdBu7zk" title="i did a oopsie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <div className="grid md:grid-cols-2 lg:-mx-24 mt-12">
           {prevPost && (
             <Link href={`/posts/${prevPost.slug}`}>
